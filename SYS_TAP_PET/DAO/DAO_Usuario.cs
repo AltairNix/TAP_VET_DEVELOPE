@@ -8,14 +8,14 @@ using Entidad;
 
 namespace DAO
 {
-    public class DAO_Usuario:MVCFeature<Usuario>
+    public class DaoUsuario:MVCFeature<Usuario>
     {
         private Conexion objConexion;
         private SqlCommand comando;
 
-        public DAO_Usuario()
+        public DaoUsuario()
         {
-            objConexion = Conexion.estadoConexion();
+            objConexion = Conexion.EstadoConexion();
         }
 
 
@@ -25,6 +25,12 @@ namespace DAO
         {
             try
             {
+
+                OperationDataContext OdContext = new OperationDataContext();
+
+
+
+
                 string query =
                     "INSERT INTO Usuario (nom_usuario, ape_paterno, ape_materno, tel_fijo, tel_celular, correo_elec, dir_domicilio, id_distrito, username, password, est_usuario, fec_creacion, fec_actualizacion, id_perfil, id_vet)" +
                     "VALUES ('" + obj.Nom_usuario + "','" + obj.Ape_paterno + "','" + obj.Ape_materno + "','" +
@@ -33,8 +39,8 @@ namespace DAO
                     ",'" + obj.Username + "','" + obj.Password + "','" + obj.Est_usuario + "'," + obj.Fec_creacion +
                     "'," + obj.Fec_creacion + "," + obj.Fec_actualizacion + "," + obj.Id_perfil + "," + obj.Id_vet +
                     ")";
-                comando = new SqlCommand(query, objConexion.getCon());
-                objConexion.getCon().Open();
+                comando = new SqlCommand(query, objConexion.GetCon());
+                objConexion.GetCon().Open();
                 comando.ExecuteNonQuery();
             }
             catch (Exception e)
@@ -44,8 +50,8 @@ namespace DAO
             }
             finally
             {
-                objConexion.getCon().Close();
-                objConexion.cerrarCon();
+                objConexion.GetCon().Close();
+                objConexion.CerrarCon();
             }
         }
 
@@ -61,8 +67,8 @@ namespace DAO
                     ",'" + obj.Username + "','" + obj.Password + "','" + obj.Est_usuario + "'," + obj.Fec_creacion +
                     "'," + obj.Fec_creacion + "," + obj.Fec_actualizacion + "," + obj.Id_perfil + "," + obj.Id_vet +
                     ")";
-                comando = new SqlCommand(query, objConexion.getCon());
-                objConexion.getCon().Open();
+                comando = new SqlCommand(query, objConexion.GetCon());
+                objConexion.GetCon().Open();
                 comando.ExecuteNonQuery();
             }
             catch (Exception e)
@@ -72,8 +78,8 @@ namespace DAO
             }
             finally
             {
-                objConexion.getCon().Close();
-                objConexion.cerrarCon();
+                objConexion.GetCon().Close();
+                objConexion.CerrarCon();
             }
         }
 

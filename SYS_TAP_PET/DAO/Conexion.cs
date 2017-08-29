@@ -18,21 +18,17 @@ namespace DAO
             SqlConnection con = new SqlConnection("Data Source=RENATO;Initial Catalog=PET_BD_TAP;Integrated Security=True");
         }
 
-        public static Conexion estadoConexion() 
+        public static Conexion EstadoConexion()
         {
-            if (objConexion == null)
-            {
-                objConexion = new Conexion();
-            }
-            return objConexion;
+            return objConexion ?? (objConexion = new Conexion());
         }
 
-        public SqlConnection getCon()
+        public SqlConnection GetCon()
         {
             return con;
         }
 
-        public void cerrarCon()
+        public void CerrarCon()
         {
             objConexion = null;
         }
