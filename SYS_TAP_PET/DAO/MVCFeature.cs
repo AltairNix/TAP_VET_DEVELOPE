@@ -14,7 +14,7 @@ namespace DAO
 
         void delete(clase obj);
 
-        clase find(clase obj);
+        bool find(clase obj);
 
         List<clase> findAll();
     }
