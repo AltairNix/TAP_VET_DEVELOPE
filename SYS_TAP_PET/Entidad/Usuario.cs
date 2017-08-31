@@ -12,8 +12,8 @@ namespace Entidad
 
         public int Id_usuario
         {
-            get { return id_usuario; }
-            set { id_usuario = value; }
+            get { return Id_usuario1; }
+            set { Id_usuario1 = value; }
         }
         private string nom_usuario;
 
@@ -121,21 +121,22 @@ namespace Entidad
             set { id_vet = value; }
         }
 
-        private Usuario()
+
+        public Usuario()
         {
 
         }
 
-        private Usuario(int id_usuario)
+        public Usuario(int id_usuario)
         {
-            this.id_usuario = id_usuario;
+            this.Id_usuario = id_usuario;
         }
 
-        private Usuario(int id_usuario, string nom_usuario, string ape_paterno, string ape_materno, string tel_fijo, string tel_celular, string correo_elec,
+        public Usuario(int id_usuario, string nom_usuario, string ape_paterno, string ape_materno, string tel_fijo, string tel_celular, string correo_elec,
             string dir_domicilio, int id_distrito, string username, string password, string est_usuario, DateTime fec_creacion, DateTime fec_actualizacion,
             int id_perfil, int id_vet)
         {
-            this.id_usuario = id_usuario;
+            this.Id_usuario = id_usuario;
             this.nom_usuario = nom_usuario;
             this.ape_paterno = ape_paterno;
             this.ape_materno = ape_materno;
