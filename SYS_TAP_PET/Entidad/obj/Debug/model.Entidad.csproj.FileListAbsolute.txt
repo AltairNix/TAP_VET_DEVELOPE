@@ -1,0 +1,5 @@
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Entidad\bin\Debug\Entidad.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Entidad\obj\Debug\model.Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Entidad\obj\Debug\Entidad.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Entidad\obj\Debug\Entidad.pdb

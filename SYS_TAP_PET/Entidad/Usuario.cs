@@ -12,8 +12,8 @@ namespace Entidad
 
         public int Id_usuario
         {
-            get { return Id_usuario1; }
-            set { Id_usuario1 = value; }
+            get { return id_usuario; }
+            set { id_usuario = value; }
         }
         private string nom_usuario;
 

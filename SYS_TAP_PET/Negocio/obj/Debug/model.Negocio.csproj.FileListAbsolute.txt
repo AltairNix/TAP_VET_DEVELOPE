@@ -1,0 +1,10 @@
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\Negocio.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\DAO.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\Entidad.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\DAO.pdb
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\bin\Debug\Entidad.pdb
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\obj\Debug\model.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\obj\Debug\model.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\obj\Debug\Negocio.dll
+C:\Users\Intel i5\Documents\GitHub\TAP_VET_DEVELOPE\SYS_TAP_PET\Negocio\obj\Debug\Negocio.pdb
