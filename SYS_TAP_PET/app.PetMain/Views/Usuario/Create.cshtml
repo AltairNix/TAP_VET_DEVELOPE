@@ -29,29 +29,39 @@
         <div class="row">
             <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m12">
                         @Html.TextBoxFor(model => model.Nom_usuario, new { @class = "validate" })
                         <label for="Nom_usuario">Nombres</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         @Html.TextBoxFor(model => model.Ape_paterno, new { @class = "validate" })
                         <label for="Ape_paterno">Apellido Paterno</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         @Html.TextBoxFor(model => model.Ape_materno, new { @class = "validate" })
                         <label for="Ape_materno">Apellido Materno</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         @Html.TextBoxFor(model => model.Tel_fijo, new { @class = "validate" })
                         <label for="Tel_fijo">Teléfono Fijo</label>
                     </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m6">
                         @Html.TextBoxFor(model => model.Tel_celular, new { @class = "validate" })
                         <label for="Tel_celular">Teléfono Celular</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        @Html.TextBoxFor(model => model.Correo_elec, new { @class = "validate" })
+                        <label for="Correo_elec">Correo Electrónico</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        @Html.TextBoxFor(model => model.Dir_domicilio, new { @class = "validate" })
+                        <label for="Dir_domicilio">Dirección</label>
                     </div>
                 </div>
             </form>
